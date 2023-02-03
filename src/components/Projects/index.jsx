@@ -11,7 +11,7 @@ const Project = [
     frameword: "HTML, CSS, React, Axios",
     img: Img1,
     repo: "https://github.com/JSV-Lozano/Search-Users-GitHub",
-    link: "https://search-users-git-hub-jhoan1153.vercel.app/",
+    linkWeb: "https://search-users-git-hub-jhoan1153.vercel.app/",
     iconRepo: "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg",
     iconWeb: Web,
   },
@@ -20,7 +20,7 @@ const Project = [
     frameword: "HTML, CSS, React, Next js, tailwind, Axios",
     img: Img2,
     repo: "https://github.com/JSV-Lozano/Next.JS-Dashboard",
-    link: "",
+    linkWeb: "",
     iconRepo: "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg",
   },
   {
@@ -28,7 +28,7 @@ const Project = [
     frameword: "HTML, CSS, JavaScript",
     img: Img3,
     repo: "https://github.com/JSV-Lozano/Dise-o-web-Figma",
-    link: "",
+    linkWeb: "",
     iconRepo: "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg",
   },
 ];
@@ -59,8 +59,8 @@ function Projects() {
                   </svg>
                 </a>
                 {project.link === "" ? null : (
-                  <a href={project.link}>
-                    <img src={project.iconWeb} alt="" />
+                  <a href={project.linkWeb}>
+                    <img src={project.iconWeb} alt="Icon Web" />
                   </a>
                 )}
               </div>
