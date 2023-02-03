@@ -1,0 +1,102 @@
+.My__Projects {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.My__Projects > h2 {
+  text-align: center;
+  color: #ff8303;
+  font-size: 3.2rem;
+  line-height: 34px;
+  margin-bottom: 50px;
+}
+.Projects {
+  width: 80%;
+}
+.Project {
+  overflow: hidden;
+  height: 300px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  color: #f0e3ca;
+  overflow: hidden;
+  height: 300px;
+  margin-bottom: 40px;
+  cursor: pointer;
+  color: #f0e3ca;
+  border: 2.5px solid #0a0a09;
+  border-radius: 10px;
+}
+.Project > img {
+  max-width: 100%;
+  height: 100%;
+}
+.Project > section {
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #1f1e1b93;
+  position: relative;
+  transform: translateY(0%);
+  transition: all 0.5s ease-in-out;
+}
+.Project:hover > section {
+  transform: translateY(-100%);
+}
+.Project > section > h2 {
+  color: #ff8000;
+  font-size: 3.2rem;
+  line-height: 34px;
+  margin-bottom: 10px;
+}
+.Project > section > p {
+  width: 300px;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 17px;
+}
+.Project > section > p > hr {
+  border-color: #ff8303;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.Project > section > a > svg {
+  width: 100px;
+}
+.Project > section > div {
+  max-width: 100%;
+}
+.Project > section > div > a > img {
+  width: 50px;
+}
+.Project > section > div > a {
+  padding: 20px;
+}
+@media screen and (min-width: 660px) {
+  .Project {
+    width: 500px;
+    margin-left: 20px;
+  }
+  .Projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 395px) {
+  .Projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Project {
+    width: 90%;
+  }
+}

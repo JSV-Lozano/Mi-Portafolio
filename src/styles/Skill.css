@@ -1,0 +1,37 @@
+.Skills {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inconsolata";
+}
+.Skills > h2 {
+  color: #ff8303;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.container__Skills {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Skill {
+  margin-bottom: 30px;
+}
+.Skill > h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #f0e3ca;
+  font-weight: 400px;
+}
+.Skill > img {
+  width: 100px;
+}
+@media screen and (max-width: 396px) {
+  .container__Skills {
+    width: 90%;
+  }
+}
