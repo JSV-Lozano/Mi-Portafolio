@@ -59,7 +59,7 @@ function Projects() {
                   </svg>
                 </a>
                 {project.link === "" ? null : (
-                  <a href="http://www.onlinewebfonts.com">
+                  <a href={project.link}>
                     <img src={project.iconWeb} alt="" />
                   </a>
                 )}
