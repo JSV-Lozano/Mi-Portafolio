@@ -2,6 +2,7 @@ import React from "react";
 import Img1 from "../../assets/Img/ApiGit.jpg";
 import Img2 from "../../assets/Img/Dashboard.png";
 import Img3 from "../../assets/Img/SinglePage.jpg";
+import Img4 from "../../assets/Img/Chat.png"
 import Web from "../../assets/Img/Web.png";
 import styles from "../../styles/Projects.css?";
 
@@ -28,6 +29,14 @@ const Project = [
     frameword: "HTML, CSS, JavaScript",
     img: Img3,
     repo: "https://github.com/JSV-Lozano/Dise-o-web-Figma",
+    linkWeb: "",
+    iconRepo: "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg",
+  },
+   {
+    name: "Chat React",
+    frameword: "HTML, CSS, React, Express, Socket.io",
+    img: Img4,
+    repo: "https://github.com/JSV-Lozano/Reach-chat-Express-Socket.io",
     linkWeb: "",
     iconRepo: "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg",
   },
