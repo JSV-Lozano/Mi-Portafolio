@@ -14,11 +14,11 @@
 .container__Skills {
   width: 50%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .Skill {
-  margin-bottom: 30px;
+  margin: 0px 10px 30px 10px;
 }
 .Skill > h2 {
   text-align: center;
