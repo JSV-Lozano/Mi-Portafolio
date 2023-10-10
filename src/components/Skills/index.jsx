@@ -33,7 +33,7 @@ function Skills() {
       id="Skills"
       className="Skills"
     >
-      <h2>My Skills</h2>
+      <h2>Skills</h2>
       <div className="container__Skills">
         {Skillss?.map((skill) => (
           <div

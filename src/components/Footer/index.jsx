@@ -1,26 +1,6 @@
 import React from "react";
 import styles from "../../styles/Footer.css?";
 
-const contacts = [
-  {
-    icon: "https://cdn.worldvectorlogo.com/logos/mail-ios.svg",
-    url: "kjsvlozano17104@gmail.com",
-    href: "mailto:kjsvlozano17104@gmail.com",
-  },
-  {
-    icon: "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg",
-    url: "http://www.github.com/JSV-Lozano",
-  },
-  {
-    icon: "https://cdn.worldvectorlogo.com/logos/linkedin-icon-2.svg",
-    url: "https://www.linkedin.com/in/jhoan-stiven-3212941b3/",
-  },
-  {
-    icon: "https://cdn.worldvectorlogo.com/logos/facebook-3-2.svg",
-    url: "https://www.facebook.com/JhoanStivenV.L/",
-  },
-];
-
 function Footer() {
   return (
     <footer id="Footer">
@@ -38,13 +18,19 @@ function Footer() {
         <div className="container__Contacts">
           <h2>Contacts</h2>
           <div className="contacts">
-            <a href="mailto:kjsvlozano17104@gmail.com" target="_blank">
+            <a
+              href="mailto:kjsvlozano17104@gmail.com"
+              target="_blank"
+            >
               <img
                 src="https://cdn.worldvectorlogo.com/logos/mail-ios.svg"
                 alt="Mail Icon"
               />
             </a>
-            <a href="https://www.facebook.com/JhoanStivenV.L/" target="_blank">
+            <a
+              href="https://www.facebook.com/JhoanStivenV.L/"
+              target="_blank"
+            >
               <img
                 src="https://cdn.worldvectorlogo.com/logos/facebook-3-2.svg"
                 alt="Facebook Icon"
@@ -59,9 +45,12 @@ function Footer() {
                 alt="Linkedin Icon"
               />
             </a>
-            <a href="http://www.github.com/JSV-Lozano" target="_blank">
+            <a
+              href="http://www.github.com/JSV-Lozano"
+              target="_blank"
+            >
               <img
-                src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg"
+                src="https://cdn.worldvectorlogo.com/logos/github-icon-2.svg"
                 alt="GitHub Icon"
               />
             </a>

@@ -2,7 +2,7 @@ import React from "react";
 import Img1 from "../../assets/Img/ApiGit.jpg";
 import Img2 from "../../assets/Img/Dashboard.png";
 import Img3 from "../../assets/Img/SinglePage.jpg";
-import Img4 from "../../assets/Img/Chat.png"
+import Img4 from "../../assets/Img/Chat.png";
 import Web from "../../assets/Img/Web.png";
 import styles from "../../styles/Projects.css?";
 
@@ -32,7 +32,7 @@ const Project = [
     linkWeb: "",
     iconRepo: "https://cdn.worldvectorlogo.com/logos/github-icon-1.svg",
   },
-   {
+  {
     name: "Chat React",
     frameword: "HTML, CSS, React, Express, Socket.io",
     img: Img4,
@@ -44,12 +44,21 @@ const Project = [
 
 function Projects() {
   return (
-    <section id="Projects" className="My__Projects">
-      <h2>My Projects</h2>
+    <section
+      id="Projects"
+      className="My__Projects"
+    >
+      <h2>Projects</h2>
       <div className="Projects">
         {Project.map((project) => (
-          <div className="Project" key={project.name}>
-            <img src={project.img} alt="" />
+          <div
+            className="Project"
+            key={project.name}
+          >
+            <img
+              src={project.img}
+              alt=""
+            />
             <section>
               <h2>{project.name}</h2>
               <p>
@@ -57,7 +66,10 @@ function Projects() {
                 <hr />
               </p>
               <div>
-                <a href={project.repo} target="_blank">
+                <a
+                  href={project.repo}
+                  target="_blank"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="50"
@@ -69,7 +81,10 @@ function Projects() {
                 </a>
                 {project.linkWeb === "" ? null : (
                   <a href={project.linkWeb}>
-                    <img src={project.iconWeb} alt="" />
+                    <img
+                      src={project.iconWeb}
+                      alt=""
+                    />
                   </a>
                 )}
               </div>

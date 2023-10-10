@@ -82,3 +82,11 @@ footer > div > div > span > h1 {
     padding: 20px;
   }
 }
+@media screen and (max-width: 768px) {
+  .contacts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    justify-items: center;
+  }
+}

@@ -14,7 +14,7 @@
   height: 183px;
   font-size: 2rem;
 }
-.container_Greetings > h2 {
+.container_Greetings > h1 {
   color: #ff8303;
   font-size: 4rem;
   font-weight: bold;
@@ -50,17 +50,21 @@
     border-color: transparent;
   }
 }
-.CV {
+.buutons_Contacts {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
   margin-top: 50px;
 }
-.CV > a {
+.buutons_Contacts > a {
   color: #000000;
   background-color: #ff8303;
   border-radius: 10px;
   padding: 20px;
   font-weight: bold;
+  transition: all 0.4s ease-in-out;
+}
+.buutons_Contacts > a:hover {
+  color: white;
 }

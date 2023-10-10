@@ -1,13 +1,15 @@
 .My__Projects {
   width: 100%;
+  height: 100vh;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 .My__Projects > h2 {
   text-align: center;
   color: #ff8303;
-  font-size: 3.2rem;
+  font-size: 4.5rem;
   line-height: 34px;
   margin-bottom: 50px;
 }
@@ -25,12 +27,14 @@
   margin-bottom: 40px;
   cursor: pointer;
   color: #f0e3ca;
-  border: 2.5px solid #0a0a09;
+  border: 2.5px solid #914800;
   border-radius: 10px;
+  transition: all 0.5s ease-in-out;
 }
 .Project > img {
   max-width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 .Project > section {
   max-width: 100%;
@@ -44,6 +48,9 @@
   position: relative;
   transform: translateY(0%);
   transition: all 0.5s ease-in-out;
+}
+.Project:hover {
+  border: 2.5px solid #ff8000;
 }
 .Project:hover > section {
   transform: translateY(-100%);
@@ -98,5 +105,10 @@
   }
   .Project {
     width: 90%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .My__Projects {
+    height: 100%;
   }
 }
